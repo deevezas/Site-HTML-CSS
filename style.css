@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header{
+    background-color: white;
+    padding: 5px 0;
+    border-bottom: 5px solid rgb(200, 200, 200);
+}
+
+.logo{
+    color: green;
+}
+
+.logo h2{
+    font-weight: normal;
+    font-size: 22px;
+}
+
+
+.menu{
+    width: 80%;
+    text-align: right;
+}
+
+
+.menu a{
+    color:  rgb(39, 143, 39);
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 20px;
+    /*transition: 0.4s;*/
+}
+
+.menu a:hover{
+    color: rgb(26, 94, 39);
+}
+
+.menu .btn-menu{
+    background-color:rgb(39, 143, 39);
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 6px;
+}
+
+.menu .btn-menu:hover{
+    background-color: rgb(40, 118, 40);
+}
+
+section.main{
+    background-image: url('abstrack-png-39.webp');
+    padding: 70px 0;
+    min-height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main__cta{
+    width: 100%;
+    margin: 60px 0;
+    text-align: center;
+}
+
+.main__cta h2{
+    color: rgb(45, 135, 45);
+    font-size: 40px;
+}
+
+.main__cta p{
+    color: gray;
+    font-size: 19px;
+    margin: 10px 0;
+}
+
+.main__cta button{
+    background-color:rgb(39, 143, 39);
+    display: inline-block;
+    padding: 8px 35px;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    border: 0;
+    cursor: pointer;
+    background-color: rgb(210, 210, 25);
+}
+
+.diferenciais{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.diferencial-single{
+border-radius: 10px;
+background-color: rgb(240, 240, 240);
+width: 23%;
+margin-right: 2%;
+padding: 50px 20px;
+}
+
+.diferencial-single i{
+color: grey;
+font-size: 23px;
+}
+
+.diferencial-single h2{
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.diferencial-single p{
+    color: gray;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+
+
+section.sobre{
+    padding: 80px 0;
+}
+
+.chamada-sobre{
+    width: 100%;
+    text-align: center;
+}
+
+.chamada-sobre h2{
+    color: rgb(39, 143, 39); 
+}
+
+.chamada-sobre p{
+    font-size: 14px;
+    color: gray;
+    margin: 10px 0;
+    text-align: center;
+}
+
+
+.conteudo-sobre{
+    display: flex;
+}
+
+
+.conteudo-sobre p{
+    width: 48%;
+    margin-right: 2%;
+    color: #444444;  
+}
+
+
+.conteudo-sobre{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+
+.conteudo-sobre span{
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.conteudo-sobre i{
+    color: rgb(39, 143, 39);  
+}
+
+
+section.conquistas{
+    background-color: #f8fbfe;
+    padding: 20px 0;
+}
+
+
+.conquista-single{
+    width: 22%;
+    margin-right: 3%;
+    text-align: center;
+}
+
+.conquista-single h2{
+    color:  rgb(45, 135, 45);
+}
+
+
+
+@media screen and (max-width: 768px){
+   .diferencial-single{
+    width: 100%;
+    margin-bottom: 20px;
+   }
+   .conteudo-sobre p{ width: 100%; margin: 20px 20px;  }
+}
+
